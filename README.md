@@ -2,7 +2,7 @@
 
 This is a demo of multi-page view transitions using a simple Flask app.
 
-The `<meta name="view-transition" content="same-origin" />` tag indicates that the browesr should attempt to transition between pages of the same origin. So, if you click on a link to a page on the same origin, the browser will attempt to transition to that page instead of doing a full page refresh.
+The `<meta name="view-transition" content="same-origin" />` tag indicates that the browser should attempt to transition between pages of the same origin. So, if you click on a link to a page on the same origin, the browser will attempt to transition to that page instead of doing a full page refresh.
 
 ## Running
 
