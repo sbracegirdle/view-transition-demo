@@ -22,3 +22,5 @@ chrome://flags#view-transition-on-navigation
 ## Reference
 
 - [Getting started with View Transitions](https://daverupert.com/2023/05/getting-started-view-transitions/)
+- [MDN doc on View Transitions](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API)
+- 
