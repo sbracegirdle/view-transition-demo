@@ -1,0 +1,38 @@
+<!-- templates/article.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="view-transition" content="same-origin" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/article">Article</a>
+    </nav>
+    <main>
+      <h1>Article Title</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna
+        eros. Duis malesuada lectus eget sem elementum non viverra.
+      </p>
+      <p>
+        Quisque id condimentum quam. Morbi et elit eget nulla facilisis mollis.
+        Aliquam a nisl in turpis pulvinar facilisis a id libero.
+      </p>
+      <p>
+        Nulla ut commodo quam, tempus porttitor lorem. Sed viverra vel orci at
+        tincidunt. Nulla id mi nec dolor pellentesque faucibus.
+      </p>
+      <p>
+        Curabitur ultricies, leo eget varius elementum, sapien justo porttitor
+        nulla, a aliquam orci turpis non libero. Fusce pharetra, eros a ornare
+        convallis.
+      </p>
+    </main>
+  </body>
+</html>
